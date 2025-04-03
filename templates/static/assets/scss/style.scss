@@ -1,0 +1,60 @@
+/* ==============
+ ========= css documentation =========
+
+ * template name: Medical
+ * version: 1.0
+ * description: Hospital Website Template
+ * author: softivus
+ * author url: https://www.templatemonster.com/authors/softivus/
+
+ 01. abstracts
+     1.1 --> mixins
+     1.2 --> variables
+    
+ 02. base
+     2.1 --> reset
+     2.2 --> typography
+     2.3 --> global
+
+ 03. components
+     3.1 --> buttons
+     3.2 --> forms
+     3.3 --> preloader
+
+ 04. layout
+     4.1 --> header
+     4.2 --> banner
+     4.3 --> footer
+
+ 05. sections
+
+
+ 06. responsive
+
+    =========================
+============== */
+
+// abstract styles
+@import "./abstracts/mixins";
+@import "./abstracts/variables";
+
+// base styles
+@import "./base/reset";
+@import "./base/typography";
+@import "./base/global";
+
+// component styles
+@import "./components/buttons";
+@import "./components/forms";
+@import "./components/preloader";
+
+// layout styles
+@import "./layout/header";
+@import "./layout/banner";
+@import "./layout/footer";
+
+// section styles
+@import "./sections/all-sections";
+
+// responsive styles
+@import "./responsive";

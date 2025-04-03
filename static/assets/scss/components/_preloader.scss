@@ -1,0 +1,19 @@
+/* ==== 
+ --------- (3.3) preloader styles start ---------
+ ==== */
+
+// preloader
+#pre_loader {
+	position: fixed;
+	width: 100%;
+	height: 100vh;
+	z-index: 9999;
+	overflow: visible;
+	background: url(../images/preloader.gif) no-repeat center center;
+	background-size: 20%;
+	background-color: #e5eff1;
+}
+
+/* ==== 
+ --------- (3.3) preloader styles end ---------
+ ==== */

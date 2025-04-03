@@ -1,0 +1,59 @@
+/* ==== 
+ --------- (4.2) banner styles start ---------
+ ==== */
+
+// blog section
+.banner{  
+    height: 500px;
+    width: 100%;
+    padding-top: 200px;
+    padding-bottom: 90px;
+    background: url(../images/inner_banner.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    z-index: 0;
+    
+    &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(3, 98, 86, 0.98);
+        z-index: -1;
+    }
+    .banner__content{
+        .banner__title{
+            color: $white;
+        }
+        .breadcrumb{
+            justify-content: center;
+            display: flex;
+            margin-top: 12px;
+            .breadcrumb-item{
+                color: $white;
+                a{
+                    color: $white;
+                    
+                font-family: $font-primary;
+                }
+                +.breadcrumb-item::before{
+                    content: "\e941";
+                    font-family: 'Material Symbols Outlined';
+                    color: $white;
+                }
+            }
+        }
+    }
+}
+// inner banner section
+
+/* ==== 
+ --------- (4.2) banner styles end ---------
+ ==== */

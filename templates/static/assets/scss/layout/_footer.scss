@@ -1,0 +1,68 @@
+/* ==== 
+ --------- (4.3) footer styles start ---------
+ ==== */
+
+.footer_area {
+    background: url(../images/footer_bg.png);
+    @include background($theme-footer-bg, no-repeat, bottom right, content);
+
+    .company_contact {
+        color: $white;
+        display: flex;
+        flex-direction: column;
+
+        a,
+        p,
+        h5 {
+            color: #fff;
+            line-height: $line-height;
+        }
+        .between_part {
+            align-items: start;
+        }
+    }
+
+    .overview,
+    .services,
+    .policy {
+        h5 {
+            color: #ffffff;
+        }
+
+        .footer_menu {
+
+            a,
+            p {
+                color: #C0C0C0;
+                line-height: $line-height;
+            }
+
+            li a {
+                padding: 5px 0;
+
+                &:hover {
+                    padding-left: 8px;
+                }
+            }
+        }
+    }
+
+    .footer_bottom {
+        border-top: 1px solid #FFFFFF;
+        flex-wrap: wrap;
+        row-gap: 20px;
+        column-gap: 30px;
+
+        .copyright a {
+            color: $white;
+
+            &:hover {
+                color: #C0C0C0;
+            }
+        }
+    }
+}
+
+/* ==== 
+ --------- (4.3) footer styles end ---------
+ ==== */

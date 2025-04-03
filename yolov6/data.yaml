@@ -1,0 +1,6 @@
+train: ./images/train
+val: ./images/valid
+test: ./images/test
+
+nc: 3
+names: ['type-1', 'type-2', 'type-3']

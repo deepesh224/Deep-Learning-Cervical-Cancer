@@ -1,0 +1,45 @@
+// (1.2) variables
+
+// google font source
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+// font family
+$font-primary: 'Poppins', sans-serif;
+$font-secondary: 'Open Sans', sans-serif;
+
+// theme default
+$line-height: 1.5;
+$heading-line-height: 1.2;
+$font-size: 18px;
+
+// theme
+$theme-primary-bg: #ffffff;
+$theme-secondary-bg: #F2F7F7;
+$theme-tertiary-bg: rgba(3, 98, 86, 0.05);
+// footer
+$theme-footer-bg: #04342E;
+
+// colorG
+$white: #ffffff;
+$black: #000000;
+$primary-color: #036256;
+$secondary-color: #222222;
+$tertiary-color: #444444;
+$quaternary-color: #BEF4EE;
+$quinary-color: rgba(3, 98, 86, 0.05);
+$custom-bg-color: #F5F5F5;
+$hover: #036256;
+$active: #036256;
+$link: #036256;
+$placeholder: #666666;
+
+// overlay
+$primary-overlay: rgba(3, 98, 86, 0.98);
+$secondary-overlay: rgba(16, 68, 62, 0.88);
+$tertiary-overlay: rgba(3, 98, 86, 0.54);
+
+// transitions
+$transition: all 0.35s ease-in-out;
+
+// filter
+$filter: brightness(0) invert(1);

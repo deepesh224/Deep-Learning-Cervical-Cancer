@@ -1,0 +1,838 @@
+/* ==== 
+ --------- (6.0) responsive styles start ---------
+ ==== */
+
+
+@media (max-width: 1799px) {
+    .coming-soon {
+        background-size: 25%;
+    }
+
+    .gallery {
+        background-size: 40%;
+    }
+
+    .footer_area {
+        background-size: 20%;
+    }
+}
+
+@media (max-width: 1599px) {
+    .service {
+        background-size: 30%;
+    }
+
+    .testimonial {
+        background-size: 20%, 25%;
+    }
+
+
+    .error-404 {
+        background-size: 40%;
+    }
+
+    .team--secondary .cardiology-slider,
+    .team--secondary .pulmonologist-slider {
+        min-width: auto;
+    }
+}
+
+@media (max-width: 1399px) {
+
+    .hero-area .hero-text::after {
+        background-size: 86%;
+    }
+
+    .team .team__slider-card .team__slider-card-info {
+        padding: 10px;
+        left: 0px;
+        right: 0px;
+
+        a {
+            font-size: 16px;
+        }
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .team .team__slider-card .team__slider-card-info {
+        a {
+            font-size: 16px;
+        }
+    }
+
+    // blog sidebar
+    .sidebar {
+        .sidebar__latest-post .sidebar__post-single {
+            gap: 12px;
+
+            .latest-post__thumb {
+                img {
+                    max-width: 84px;
+                }
+            }
+        }
+
+        .sidebar__search .sidebar__form .search_icon {
+            padding: 18px 20px;
+        }
+    }
+
+    .blog .blog__wrapper .blog__single {
+        gap: 20px;
+
+        .blog__content {
+            padding-left: 20px;
+        }
+    }
+
+
+}
+
+@media (min-width: 1200px) {
+
+    .blog,
+    .blog-details {
+        .sidebar {
+            position: sticky;
+            top: 140px;
+        }
+    }
+}
+
+@media (max-width: 1199px) {
+
+    // paragraph styles
+    p,
+    th,
+    td,
+    li,
+    input,
+    textarea,
+    select,
+    label,
+    blockquote,
+    span {
+        font-size: 16px;
+        line-height: $line-height;
+    }
+
+    // link styles
+    a,
+    button {
+        font-size: 16px;
+    }
+
+    .hero-area {
+        .hero-text::after {
+            background-size: 75%;
+        }
+
+        .section__content {
+            padding-top: 180px;
+            padding-bottom: 80px;
+        }
+
+        .hero-area__slider {
+            width: 100%;
+
+            .slider-image {
+                max-height: 700px;
+                height: 100%;
+
+                img {
+                    height: 100%;
+                }
+            }
+
+            .slider-nav {
+                width: 50%;
+                height: auto;
+                bottom: 50px;
+                top: auto;
+                left: 50%;
+                transform: translateX(-50%);
+
+                .slick-slide.thumbnail-image .thumbImg {
+                    min-width: 100px;
+                    height: 100px;
+                    margin: 0 auto;
+                    padding: 5px;
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+            }
+        }
+    }
+
+    .blog-articles .blog-articles__card {
+        display: flex;
+        flex-direction: column;
+
+        .blog-articles__card-thumb {
+            border-bottom-left-radius: 0;
+            border-bottom-right-radius: 0;
+        }
+
+        .blog-articles__card-content {
+            margin: 0;
+            border-top-right-radius: 0;
+            border-top-left-radius: 0;
+
+        }
+    }
+
+    .about .about__single-thumb {
+        height: 400px;
+        width: 400px;
+
+        &:after {
+            height: 160px;
+            width: 160px;
+        }
+    }
+
+    .service .service__card {
+        padding: 30px 20px;
+
+        .service__card-icon {
+            height: 140px;
+            width: 140px;
+            min-width: 120px;
+        }
+    }
+
+    .contact::after {
+        display: none;
+    }
+
+    .neurologists .neurologists__card .neurologists__card-info {
+        left: 0;
+        right: 0;
+
+        .social {
+            flex: 0.7;
+        }
+    }
+
+    .heart-transplant .heart-transplant__temp {
+        margin: auto;
+    }
+
+    .service-cardiology .service-cardiology__temp {
+        display: none;
+    }
+
+    .service-cardiology .section__content .section__content-title {
+        margin-bottom: 30px;
+        max-width: 25ch;
+    }
+
+    .coming-soon .coming-soon__countdown .coming-soon__number span {
+        font-size: 47px;
+    }
+
+    .newsletter .newsletter__content .newsletter__content-form {
+        max-width: 94%;
+    }
+}
+
+@media (max-width: 991px) {
+
+    // global styles
+    .section {
+        padding: 100px 0px;
+    }
+
+    .section--space-top {
+        padding-bottom: 0px;
+    }
+
+    .section--space-bottom {
+        padding-top: 0px;
+    }
+
+    .unset {
+        max-width: 75%;
+        height: auto;
+    }
+
+    .dir-rtl {
+        direction: ltr;
+    }
+
+    .btn_theme {
+        padding: 17px 30px;
+    }
+
+    .banner {
+        height: auto;
+    }
+
+    .hero-area .hero-area__slider {
+        .slider-image {
+            max-height: 500px;
+            height: 100%;
+        }
+
+        .slider-nav .slick-slide.thumbnail-image {
+            margin: 0px 7px;
+
+            .thumbImg {
+                min-width: 80px;
+                height: 80px;
+                margin: 0 auto;
+                padding: 5px;
+
+                img {
+                    border: 5px solid #fff;
+                }
+            }
+        }
+    }
+
+    .about .about__single-thumb {
+        display: none;
+    }
+
+    .neurologists .neurologists__card .neurologists__card-info {
+        padding: 24px 30px;
+    }
+
+    .service .service__card .service__card-icon {
+        height: 120px;
+        width: 120px;
+        min-width: 120px;
+    }
+
+    .gallery .gallery__thumb {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .coming-soon .coming-soon__countdown {
+        gap: 16px;
+
+        .coming-soon__number span {
+            font-size: 32px;
+        }
+    }
+
+    .coming-soon {
+        &::after {
+            width: 590px;
+            min-width: 590px;
+            bottom: -555px;
+            right: -330px;
+        }
+
+        .coming-soon__form {
+            max-width: 60%;
+        }
+    }
+
+
+    .newsletter .newsletter__content .newsletter__content-form {
+        max-width: 94%;
+
+        .btn_theme {
+            padding: 25px 35px;
+        }
+    }
+
+    .choose {
+        position: relative;
+        overflow: hidden;
+        background: $custom-bg-color;
+        z-index: 0;
+
+        &::after {
+            display: none;
+        }
+    }
+    .blog .blog__wrapper .blog__single .blog__thumb {
+        flex: auto;
+        width: 100%;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .blog--others .blog__wrapper .blog__single{
+        padding: 20px 12px;
+    }
+
+}
+
+@media (max-width: 767px) {
+
+    // global styles
+    .section {
+        padding: 80px 0px;
+    }
+
+    .section--space-top {
+        padding-bottom: 0px;
+    }
+
+    .section--space-bottom {
+        padding-top: 0px;
+    }
+
+    .section__header {
+        margin-bottom: 36px;
+
+        .section__header-sub-title {
+            margin-bottom: 10px;
+        }
+
+        .section__header-title {
+            margin-bottom: 10px;
+        }
+    }
+
+ 
+
+    .blog .blog__wrapper .blog__single {
+        flex-direction: column;
+
+        .blog__content {
+            padding-left: 0;
+            border-left: none;
+        }
+    }
+
+    .blog-details .blog-details__wrapper .blog-details__comments-area {
+        .comments-form .input-group .btn_theme {
+            padding: 20px 35px;
+        }
+
+        .blog-details__comments .comments-single .comments__author-content .blog-comment-reply .blog-comment-reply-inner .reply__form .input-group {
+            flex-direction: column;
+
+            .form-control {
+                height: 75px;
+                width: 100%;
+                border-top-right-radius: 5px;
+                border-bottom-left-radius: 0;
+            }
+
+            .btn_theme {
+                border-top-left-radius: 0;
+                border-top-right-radius: 0;
+                border-bottom-left-radius: 5px;
+            }
+        }
+    }
+
+    .neurologists .neurologists__card .neurologists__card-info {
+        left: 0;
+        right: 0;
+
+        .social {
+            flex: none;
+        }
+    }
+
+    .heart-transplant .heart-transplant__temp::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 46px;
+        height: 100%;
+        width: 70%;
+    }
+
+    .testimonial .testimonial__slider-card {
+        padding: 20px;
+    }
+
+
+    .section__content,
+    .banner__content {
+
+        .section__content-sub-title,
+        .banner__content-sub-title {
+            margin-bottom: 20px;
+        }
+
+        .section__content-title,
+        .banner__content-title {
+            margin-bottom: 20px;
+        }
+
+        .section__content-cta,
+        .banner__content-cta {
+            margin-top: 30px;
+        }
+    }
+
+    .section__cta {
+        margin-top: 30px;
+    }
+
+    .progress-wrap {
+        @include box(40px);
+        box-shadow: inset 0 0 0 8px #c3b4ba7d;
+        line-height: 1.5;
+
+        &::before,
+        &::after {
+            @include box(40px);
+            font-size: 12px;
+        }
+    }
+
+    .blog .blog__wrapper .blog__single {
+        padding: 10px;
+        gap: 0px;
+
+        .blog__content {
+            padding: 25px 15px;
+            padding-bottom: 15px;
+        }
+    }
+
+    .experience .experience__progress {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        gap: 60px;
+    }
+
+
+    .coming-soon {
+
+        .coming-soon__countdown .coming-soon__number span {
+            padding: 12px;
+            font-size: 26px;
+            border-radius: 10px;
+        }
+
+        .coming-soon__form {
+            max-width: 80%;
+        }
+    }
+
+
+    .about {
+        background-size: 15%;
+    }
+
+    .team:before {
+        transform: scaleX(1.4);
+    }
+
+    .newsletter .newsletter__content .newsletter__content-form {
+        max-width: 85%;
+    }
+
+    .team .slider-navigation {
+        gap: 6px;
+
+        .pagination-button {
+            height: 30px;
+            width: 30px;
+            min-width: 30px;
+        }
+
+        .news__dots-list {
+            gap: 6px;
+
+            li {
+                height: 30px;
+                width: 30px;
+            }
+        }
+    }
+
+}
+
+@media (max-width: 575px) {
+    .btn_theme {
+        padding: 15px 22px;
+    }
+
+    .col-12 {
+        max-width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hero-area {
+        .hero-text::after{
+            background-size: 58%;
+        }
+        .hero-area__slider {
+            .slider-image {
+                max-height: 450px;
+            }
+            
+            .slider-nav .slick-slide.thumbnail-image {
+                margin: 0 2px;
+                
+                .thumbImg {
+                    min-width: 70px;
+                    width: 70px;
+                    height: 70px;
+                    
+                    img {
+                        border: 2px solid #fff;
+                    }
+                }
+            }
+        }
+    } 
+        
+    .blog .blog__wrapper .blog__single {
+        .blog__content {
+            padding: 15px 10px;
+            padding-bottom: 10px;
+        }
+    }
+
+    .blog-details .blog-details__wrapper .blog-details__comments-area .blog-details__comments .comments-single {
+        flex-direction: column;
+    }
+
+    .doctors-cardiology .doctors-cardiology__temp {
+        &:after {
+            display: none;
+        }
+
+        img {
+            margin: 0;
+        }
+    }
+
+    .heart-transplant .heart-transplant__temp {
+        max-height: 400px;
+        width: 100%;
+
+        .transplant_one {
+            display: none;
+        }
+
+        .transplant_two {
+            width: 100%;
+            height: 100%;
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+
+        &::after {
+            display: none;
+        }
+    }
+
+    .gallery .gallery__thumb {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 0;
+        row-gap: 24px;
+    }
+
+    .coming-soon {
+        .coming-soon__countdown {
+            gap: 7px;
+
+            .coming-soon__number span {
+                padding: 8px;
+                font-size: 23px;
+            }
+        }
+
+        .coming-soon__form {
+            max-width: 95%;
+        }
+    }
+
+
+    .team:before {
+        transform: scaleX(1.7);
+        bottom: -100px;
+    }
+
+    .newsletter .newsletter__content .newsletter__content-form {
+        max-width: 95%;
+    }
+
+    // pagination
+    .pagination {
+        gap: 8px;
+
+        a,
+        button {
+            @include box(35px);
+            border-radius: 5px;
+        }
+    }
+
+
+}
+
+@media (max-width: 479px) {
+
+    .col-6 {
+        width: 100%;
+    }
+
+    .section__content,
+    .banner__content {
+
+        .banner__content-inner,
+        .section__content-inner {
+            ul {
+                flex-direction: column;
+                align-items: start;
+
+                li {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .section__content,
+    .banner__content {
+
+        .banner__content-inner,
+        .section__content-cta,
+        .banner__content-cta {
+            flex-direction: column;
+            align-items: flex-start;
+
+            .btn_theme {
+                width: 100%;
+                justify-content: center;
+            }
+        }
+    }
+    .hero-area {
+        .hero-text::after{
+            background-size: 48%;
+        }
+        .hero-area__slider .slider-nav .slick-slide.thumbnail-image .thumbImg {
+            min-width: 50px;
+            width: 50px;
+            height: 50px;
+
+            img {
+                border: 2px solid #fff;
+            }
+        }
+    }
+
+    .neurologists .neurologists__card {
+        .neurologists__card-info {
+            flex-direction: column;
+            gap: 20px;
+            transform: translateY(0);
+
+            .line {
+                display: none;
+            }
+        }
+
+        &:hover .neurologists__card-info {
+            transform: translateY(-15px);
+        }
+    }
+
+    .sidebar .sidebar__latest-post .sidebar__post-single {
+        flex-direction: column;
+        align-items: start;
+        gap: 8px;
+        margin-bottom: 28px;
+    }
+
+    .sidebar .sidebar__search .sidebar__form .search_icon {
+        padding: 18px 20px;
+    }
+
+    .blog-details .blog-details__wrapper .blog-details__comments-area .comments-form .input-group {
+        flex-direction: column;
+
+        .form-control {
+            height: 75px;
+            width: 100%;
+        }
+
+        .btn_theme {
+            padding: 16px 30px;
+            border-top-right-radius: 0;
+            border-bottom-left-radius: 10px !important;
+        }
+    }
+
+    .contact .contact__form {
+        padding: 20px 12px;
+    }
+
+    .coming-soon {
+        .coming-soon__countdown {
+            gap: 3px;
+
+            & span {
+                font-size: 4px;
+                line-height: 1.5;
+            }
+
+            .coming-soon__title {
+                font-size: 15px;
+            }
+
+            .coming-soon__number span {
+                padding: 8px;
+                font-size: 16px;
+            }
+        }
+
+        .coming-soon__form .input-group .btn_theme {
+            padding: 20px;
+        }
+    }
+
+
+    .newsletter .newsletter__content .newsletter__content-form {
+        max-width: 100%;
+
+        .customGapOne {
+            display: block !important;
+        }
+
+        .form-control {
+            width: 100%;
+            height: 75px;
+            border-radius: 0;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+        }
+
+        .btn_theme {
+            padding: 20px 30px;
+            width: 100%;
+            border-radius: 0;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+            outline: none;
+            &:hover, 
+            &:focus {
+                outline: none;
+            }
+        }
+    }
+}
+
+
+
+
+/* ==== 
+  --------- (6.0) responsive styles end ---------
+  ==== */

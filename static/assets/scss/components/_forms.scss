@@ -1,0 +1,79 @@
+/* ==== 
+ --------- (3.2) forms styles start ---------
+ ==== */
+
+.alert {
+    transition: 1s;
+    margin-bottom: -20px;
+    margin-top: 10px;
+    display: block;
+}
+
+label.error {
+    color: red;
+    font-size: 14px;
+    position: absolute;
+    left: 0;
+}
+
+.message-error.error {
+    position: absolute;
+    color: red;
+    font-size: 14px;
+}
+
+.form-control {
+    border: none;
+    font-size: $font-size;
+
+    &:focus {
+        outline: none;
+        box-shadow: none;
+    }
+}
+
+.input-group {
+    .input-single {
+        width: 100%;
+        width: calc(50% - 12px);
+    }
+}
+
+// newsletter
+.newsletter {
+    background: $primary-color;
+    overflow: hidden;
+
+    .newsletter__content {
+        padding: 60px 0;
+
+        .newsletter__content-text {
+            max-width: 55ch;
+        }
+
+        .newsletter__content-form {
+            max-width: 72%;
+
+            .form-control {
+                border-radius: 10px;
+                padding: 0 30px;
+            }
+
+            .btn_theme {
+                background: #DC8E1A;
+                filter: none;
+                padding: 30px 48px;
+            }
+        }
+    }
+
+    .newsletter_img {
+        img {
+            max-width: unset;
+        }
+    }
+}
+
+/* ==== 
+ --------- (3.2) forms styles end ---------
+ ==== */

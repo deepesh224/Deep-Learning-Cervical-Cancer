@@ -1,0 +1,111 @@
+/* ==== 
+ --------- (3.1) buttons styles start ---------
+ ==== */
+// btn
+.btn_theme {
+    background: $primary-color;
+    color: $white;
+    filter: drop-shadow(0px 4px 16px rgba(0, 125, 110, 0.29));
+    padding: 20px 37px;
+    border-radius: 10px;
+    border: none;
+    outline: 3px solid transparent;
+    font-size: $font-size;
+    font-family: $font-secondary;
+    font-weight: 600;
+    line-height: $heading-line-height;
+    min-width: max-content;
+    transition: all ease-in-out 0.35s;
+
+    &:hover,
+    &:focus {
+        outline: 3px solid $primary-color;
+        outline-offset: 8px;
+        color: $white;
+    }
+}
+
+
+.btn_light {
+    background: $white;
+    color: $primary-color;
+
+    &:hover,
+    &:focus {
+        outline: 3px solid $white;
+        outline-offset: 8px;
+        color: $primary-color;
+    }
+}
+
+.btn_light_border {
+    background: transparent;
+    border: 1px solid $white;
+
+    &:hover,
+    &:focus {
+        outline: 3px solid $white;
+        outline-offset: 8px;
+        border: 1px solid $white;
+    }
+}
+
+.btn_dark_border {
+    background: transparent;
+    border: 1px solid $primary-color;
+    color: $primary-color;
+
+    &:hover,
+    &:focus {
+        color: $primary-color;
+        outline: 3px solid $primary-color;
+        outline-offset: 8px;
+        border: 1px solid $primary-color;
+    }
+}
+
+// scrollToTop
+.scrollToTop {
+    position: fixed;
+    right: 30px;
+    bottom: -10px;
+    width: 45px;
+    height: 45px;
+    line-height: var(--body-line-height);
+    border-radius: 5px;
+    background-color: $primary-color;
+    box-shadow: 0px 1px 13px rgb(56 243 196);
+    font-size: 20px;
+    text-align: center;
+    z-index: 100;
+    cursor: pointer;
+    color: $white !important;
+    transition: .3s;
+    transform: translateY(100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &:hover {
+        color: $white !important;
+    }
+
+    &:focus {
+        color: $white !important;
+    }
+}
+
+.topActive {
+    bottom: 30px;
+    transform: translateY(0%);
+}
+
+@media (max-width: 1599px) {
+    .topActive {
+        bottom: 60px;
+    }
+}
+
+/* ====  
+ --------- (3.1) buttons styles end ---------
+ ==== */

@@ -1,0 +1,60 @@
+1. Importing the packages
+2. Exploring the dataset 
+	- Cervical Cancer
+	- CC Roboflow Data
+3. Image processing
+	- using ImageDataGenerator 
+		- Re-scaling the Image
+		- Shear Transformation
+		- Zooming the Image
+		- Horizontal Flip 
+		- Reshaping the Image 
+	-  Torchvision based processing for Detection
+4. Building the model 
+    Classification 
+        CNN
+            SVM
+            KNN
+            Bayesian Network
+            Decision Tree
+            MLP
+            
+            Voting Classifier
+        DenseNet
+            SVM
+            KNN
+            Bayesian Network
+            Decision Tree
+            MLP
+            
+            Voting Classifier
+        Xception
+            SVM
+            KNN
+            Bayesian Network
+            Decision Tree
+            MLP
+            
+            Voting Classifier
+    Detection
+        YoloV5
+        YoloV8
+5. Training the model
+6. Building the model 
+Flask Framework
+-----------------------
+7. Flask Framework with Sqlite for signup and signin
+8. Importing the packages
+9. User Upload an image for analysis
+10. The given input is preprocessed 
+11. The trained model is used for predicting the result
+12. Final Outcome is display 
+Dataset
+----------- 
+Classification : https://www.kaggle.com/datasets/sakibapon/cervical-cancer-balanced-dataset  
+Detection : https://roboflow.com/convert/labelbox-json-to-yolov5-pytorch-txt 
+Extension
+------------
+In the base paper, the author mentioned to use different models for analysis the CC data  and Detection with roboflow dataset with different Deep Learning models from which CNN and SVM got 99% of accuracy as per author,
+So we further enhance the performance by exploring Detection techniques using YoloV5 and YoloV8 for analysis the  CC,
+With the above As an extension we can build the front end using flask framework for user testing with authentication.
